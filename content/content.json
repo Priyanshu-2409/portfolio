@@ -6,8 +6,8 @@
   },
   "hero": {
     "name": "Priyanshu Mullick",
-    "headline": "Full-stack + AI engineer. Third-year CSE student.",
-    "positioning": "I build production-grade systems end to end — from Postgres schemas to distributed workers to shareable status pages.",
+    "headline": "Full-stack + AI engineer. Fourth-year CSE student.",
+    "positioning": "I build software end to end — data models, APIs, background systems, and the interfaces on top — and increasingly, the AI layer between them. From shipping full-stack products and AI-powered tools — from database schema to LLM pipeline to the pixel the user clicks to building systems that keep running when nobody's watching",
     "statusLine": "$ status: open to SDE internships · summer 2026 · remote or Bangalore/Delhi NCR",
     "ctaPrimary": { "label": "View projects", "href": "#projects" },
     "ctaSecondary": { "label": "Download résumé", "href": "/resume.pdf" }
