@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Priyanshu Mullick — Full-stack + AI Engineer",
+    "description": "Third-year CSE student building production-grade systems end to end — distributed workers, Postgres schemas, applied AI. Open to SDE internships, summer 2026.",
+    "siteUrl": "https://EDIT-your-domain.vercel.app"
+  },
+  "hero": {
+    "name": "Priyanshu Mullick",
+    "headline": "Full-stack + AI engineer. Third-year CSE student.",
+    "positioning": "I build production-grade systems end to end — from Postgres schemas to distributed workers to shareable status pages.",
+    "statusLine": "$ status: open to SDE internships · summer 2026 · remote or Bangalore/Delhi NCR",
+    "ctaPrimary": { "label": "View projects", "href": "#projects" },
+    "ctaSecondary": { "label": "Download résumé", "href": "/resume.pdf" }
+  },
+  "nav": [
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "links": {
+    "github": "https://github.com/Priyanshu-2409",
+    "linkedin": "https://linkedin.com/in/priyanshu-mullick-0853282a1",
+    "email": "mullickpriyanshu@gmail.com",
+    "phone": "+91 9873544435",
+    "calendly": "blabla"
+  },
+  "projects": [
+    {
+      "featured": true,
+      "name": "Pharos",
+      "tagline": "Distributed uptime monitoring with real-time incident detection and email alerts.",
+      "stack": ["TypeScript", "Next.js", "Express", "PostgreSQL", "Prisma", "Redis", "BullMQ", "Docker", "Better Auth", "Resend"],
+      "bullets": [
+        "Built a producer/consumer distributed system — a message queue coordinates an API and a worker process running HTTP checks against user-configured URLs on repeating schedules.",
+        "Implemented incident state detection with a 3-consecutive-failure debounce to prevent alert flapping; incidents auto-open and auto-resolve from check history.",
+        "Designed public shareable status pages with 30-day uptime calculations, live-refreshing without page reloads via Next.js server components + companion client refreshers.",
+        "IDOR-safe API — every ownership check is embedded in the query itself instead of a separate check-then-act flow."
+      ],
+      "demo": "[EDIT: live demo URL when deployed]",
+      "github": "https://github.com/Priyanshu-2409/pharos",
+      "statusEndpoint": ""
+    },
+    {
+      "featured": false,
+      "name": "Devscribe",
+      "tagline": "Automated code documentation using LLM analysis with intelligent caching.",
+      "stack": ["Python", "Anthropic Claude API", "SHA-256 caching", "Sliding-window rate limiting"],
+      "bullets": [
+        "LLM-powered tool that generates documentation for entire codebases by chunking + prompting.",
+        "SHA-256 based caching skips unchanged files; sliding-window rate limiting stays within API quotas."
+      ],
+      "demo": "",
+      "github": "https://github.com/Priyanshu-2409",
+      "statusEndpoint": ""
+    },
+    {
+      "featured": false,
+      "name": "Viora",
+      "tagline": "Meeting transcription + summarization with RAG over past meetings.",
+      "stack": ["Python", "Whisper", "Sarvam AI", "LangChain", "ChromaDB"],
+      "bullets": [
+        "Transcribes meetings via Whisper and Sarvam AI, with Indic language support.",
+        "Extracts action items and decisions via LangChain; stores them in ChromaDB for retrieval-augmented Q&A over past meetings."
+      ],
+      "demo": "blalblabla",
+      "github": "https://github.com/Priyanshu-2409/viora",
+      "statusEndpoint": ""
+    }
+  ],
+  "skills": {
+    "buckets": [
+      { "label": "Languages", "items": ["Java", "Python", "TypeScript", "SQL", "JavaScript", "C++"] },
+      { "label": "Backend / Systems", "items": ["Node.js", "Express", "Prisma", "PostgreSQL", "Redis", "BullMQ", "Docker", "K8S","REST APIs"] },
+      { "label": "Frontend", "items": ["Next.js", "React", "Tailwind", "TypeScript", "Vue", "Angular", "Bootstrap"] },
+      { "label": "AI / ML", "items": ["LangChain", "RAG", "ChromaDB", "Claude API", "OpenAI API", "Agentic AI", "Whisper", "NLP", "Prompt Engineering"] }
+    ],
+    "footnote": "Comfortable across the stack. Deepest in TypeScript + distributed systems, plus applied AI."
+  },
+  "experience": [
+    {
+      "company": "Urofly International",
+      "role": "Software Engineering Intern",
+      "dates": "June 2025 - September 2025",
+      "bullets": [
+        "Developed and maintained uroflyintl.com to live customer traffic over a 12-week Agile cycle by architecting the end-to-end stack (Next.js 15, TypeScript, Node.js, PostgreSQL) as a core contributor.",
+        "Delivered browse, cart, and checkout flows responsive across mobile, tablet, and desktop by building a reusable React + TypeScript component system with Tailwind CSS, shadcn/ui, Zustand, and Vite.",
+        "Powered the full catalog → cart → checkout order lifecycle for a live storefront by designing RESTful APIs on Node.js/Express against a normalized PostgreSQL schema with auth and transactional integrity.",
+        "Delivered fast, SEO-friendly product pages verified via Lighthouse audits by implementing Next.js SSR/ISR and deploying with GitHub-based CI/CD for continuous production releases."
+      ]
+    },
+    {
+      "company": "Techsharks",
+      "role": "Software Engineering Intern",
+      "dates": "July 2024 - August 2024",
+      "bullets": [
+        "Shipped multiple client-facing websites end-to-end following Agile sprint cycles by building full-stack features across React, Next.js, Node.js, Express, TypeScript, and Tailwind CSS alongside senior engineers.",
+        "Reduced design-to-code handoff time by pairing directly with designers to translate Figma mockups into pixel-accurate, responsive React components validated across mobile, tablet, and desktop breakpoints"
+      ]
+    }
+  ],
+  "education": {
+    "school": "Dr. Akhilesh Das Gupta Institute of Professional Studies, New Delhi",
+    "degree": "B.Tech, Computer Science and Engineering",
+    "graduation": "Expected June 2027",
+    "cgpa": "CGPA 8.0",
+    "coursework": ["Data Structures & Algorithms", "Operating Systems", "Databases", "Computer Networks", "System Design", "OOP"],
+    "extras": [
+      "Google Development Group On Campus core",
+      "Helped organize and develop official website for annual 72-hr hackathon - 'Hack-n-Chill 2026' and Developed the official website"
+    ]
+  },
+  "achievements": [
+    "400+ DSA problems solved across LeetCode, HackerRank, CodeChef (Java focus)",
+    "Participated and helped organize hackathons",
+    "Actively grinding data Structures and algorithms"
+  ],
+  "footer": {
+    "builtWith": "Made with love..",
+    "version": "v1.0.0"
+  }
+}
